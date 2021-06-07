@@ -1,0 +1,224 @@
+/*------------------------------------------------- */
+/* Big tablets to 1200px (widths smaller that the 1140px row) */
+/*------------------------------------------------- */
+
+@media only screen and (max-width: 1200px) {
+    .choose-plan_wrapper {
+        justify-content: space-around;
+    }
+    .container {
+        padding: 0 10px;
+    }
+    
+}
+
+/*------------------------------------------------- */
+/* Small tablets to big tablets: from 768px to 1023px */
+/*------------------------------------------------- */
+
+@media only screen and (max-width: 1023px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .global-network_picture {
+        width: 100%;
+    }
+    .global-network_bar__picture {
+        width: 100%;
+        height: auto;
+    }
+    .header_more-info__item {
+        margin: 0 auto;
+        padding: 0 50px;
+    }
+    .features-pic {
+        width: 100%;
+    }
+    .main-pic {
+        width: 100%;
+    }
+   .footer-wrapper__item-list {
+       margin-left: 5px;
+   }
+   .nav-item__link:link,
+   .nav-item__link:visited {
+       margin-right: 10px;
+   }
+   .btn-empty:link,
+   .btn-empty:visited {
+    margin-right: 10px;
+   }
+}
+
+/*------------------------------------------------- */
+/* Small Phones to small tablets: from 481px to 767px */
+/*------------------------------------------------- */
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 12px;
+    }
+    br { 
+        display: none;
+    }
+    .main-pic {
+        display: none;
+    }
+    .header_more-info {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 30px;
+        padding: 10px 0;
+    }
+    .header_more-info__item {
+        padding-left: 0;
+        border-right: 0;    
+    }
+    .features-pic {
+        display: none;
+    }
+    .features-wrapper {
+        padding: 20px 0;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .features-wrapper__item:last-child {
+        width: 100%;
+
+    }
+    .features_title {
+        margin-top: 25px;
+        text-align: center;
+    }
+    .choose-plan_wrapper {
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+    }
+    .choose-plan_wrapper__item {
+        width: 80%;
+        margin: 10px 0;
+    }
+    .footer-wrapper {
+        padding-top: 20px;
+        flex-wrap: wrap;
+    }
+    .subscribe-wrapper {
+        margin: 20px 0;
+        flex-wrap: wrap;
+    }
+    .choose-plan_wrapper__item__picture {
+        margin-top: 10px;
+    }
+    .choose-plan_wrapper__item__list {
+        min-height: 100px;
+    }
+    .footer-wrapper__item {
+        text-align: center;
+    }
+    .reviews_title {
+        padding: 25px 0;
+    }
+    .global-network_bar {
+        margin: 20px 0;
+    }
+    .text_type-1 {
+        margin: 0 0 25px 0;
+    }
+    .global-network_title {
+        padding: 20px 0;
+    }
+    .owl-nav {
+        justify-content: center;
+    }
+    .owl-dots {
+        justify-content: center;
+    }
+    .btn-full:link,
+    .btn-full:visited  {
+        padding: 12px 35px;
+        width: 100%;
+        text-align: center;
+    }
+    .choose-plan_title {
+        margin-top: 20px;
+    }
+    .features-wrapper__item p {
+        text-align: center;
+    }
+    .subscribe-wrapper__item {
+        width: 100%;
+    }
+    .subscribe_title {
+        text-align: center;
+    }
+   h1 {
+       font-size: 260%;
+       text-align: center;
+   }
+   .header_main-content-wrapper p {
+       text-align: center;
+   }
+   .header_main-content-wrapper a {
+       margin: 0 auto;
+   }
+   .header_title {
+       margin-top: 0;
+   }
+   .header_nav-wrapper {
+       padding-top: 25px;
+       flex-wrap: wrap;
+       justify-content: center;
+   }
+   .header_main-content-wrapper {
+       margin: 20px 0;
+   }
+}
+
+/*------------------------------------------------- */
+/* Small Phones: from 320px to 480px */
+/*------------------------------------------------- */
+
+@media only screen and (max-width: 480px) {
+    .header_nav-wrapper {
+        padding: 10px 0;
+    }
+    .nav-item{
+        padding: 15px 0;
+    }
+    .header_main-content-wrapper {
+        margin: 10px 0;
+    }
+    .header_more-info__item {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        width: 100%;
+        justify-content: center;
+    }
+    .header_more-info__icon {
+        margin-right: 0;
+    }
+    .header_more-info__item__wrapper {
+        width: 100%
+    }
+    .users-ic,
+    .gps-ic,
+    .server-ic {
+        margin: 0;
+    }
+    .footer-list {
+        display: inline-block;
+        width: 100%;
+    }
+    .footer-wrapper__item-list {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .footer-list {
+        margin: 10px 0;
+    }
+    .choose-plan_wrapper__item:first-child,
+    .choose-plan_wrapper__item:last-child {
+        display: none;
+    }
+}
